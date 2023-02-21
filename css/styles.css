@@ -1,0 +1,196 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    background: #FFFFFF;
+}
+.list{
+    list-style: none;}
+.link{
+    text-decoration: none;}
+
+.btn{font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;}
+    
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+/*-------Header-------------*/
+
+.header-logo {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.accent{color: #4D5AE5;}
+
+.header-list :hover,
+.header-list :focus{ 
+    color: #404BBF;
+}
+
+.header-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-mail {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-tel {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*-------Hero-------------*/
+
+.hero{
+    background: #2E2F42;}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;   
+    color: #FFFFFF;
+    }
+.hero-btn{
+color: #FFFFFF;
+background: #4D5AE5;
+}
+
+/*-------Advantage-------------*/
+
+.advantage-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.advantage-text {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*-------Work-Examples-------------*/
+
+.work-examples-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/*-------Team-------------*/
+
+.team {
+    background: #F4F4FD;
+}
+.team-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-item {
+    background: #FFFFFF;
+}
+.team-user {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.5x;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*-------main filter-------------*/
+
+.filter-btn{
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.filter-btn:hover, 
+.filter-btn:focus {
+    color: #FFFFFF; background: #404BBF;
+}
+
+/*-------main project-------------*/
+
+.project-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.project-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.footer {
+    background: #2E2F42;
+}
+
+/*-------footer-------------*/
+
+.footer-logo {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;}
+    
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
