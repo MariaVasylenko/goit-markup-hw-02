@@ -75,16 +75,24 @@ color: var(--header-accent-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--adress-color);
-}
+    color: var(--adress-color);}
+
+.header-mail:hover, 
+.header-mail:focus {
+    color: var(--focus-background-color);}
+    
 .header-tel {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--adress-color);
-}
+    color: var(--adress-color);}
 
+.header-tel:hover, 
+.header-tel:focus {
+    color: var(--focus-background-color);
+    }
+    
 /*-------Hero-------------*/
 
 .hero{
